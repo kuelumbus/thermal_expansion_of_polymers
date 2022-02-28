@@ -2,10 +2,20 @@
 
 The Python notebooks in this repo show the modeling of the thermal expansion of polymers using a (tiny) toy data set. The black box (neural network) model is most probably not usable because the data set is too small. 
 
-See
+# Install
 
-- [dataset.ipynb](thermal_expansion_polymers/dataset.ipynb) for the data set
+[Poetry](https://python-poetry.org/docs/) must be installed. 
 
-- [gray_box.ipynb](thermal_expansion_polymers/gray_box.ipynb) for the gray box (linear fit) model 
+```bash
+git clone https://github.com/kuelumbus/thermal_expansion_of_polymers
+cd thermal_expansion_of_polymers
+poetry install
+```
 
-- [black_box.ipynb](thermal_expansion_polymers/black_box.ipynb) for the black box (neural network) model 
+Check out the notebooks:
+
+- [dataset.ipynb](thermal_expansion_polymers/dataset.ipynb) for the data set and sources
+
+- [gray_box.ipynb](thermal_expansion_polymers/gray_box.ipynb) for the gray box models (least square)
+
+- [black_box.ipynb](thermal_expansion_polymers/black_box.ipynb) for the black box model (neural network)  
